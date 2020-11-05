@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
   <title>The Great Songs</title>
   <style>
     body {
       background-image: url("https://images.pexels.com/photos/1671630/pexels-photo-1671630.jpeg?cs=srgb&dl=pexels-tyler-lastovich-1671630.jpg&fm=jpg");
       background-size: cover;
     }
-
-    h1 {
-      font-style: italic;
-      color: #191970;
-    }
-   .songs1 {
+   .line1 {
      display: flex;
      justify-content: center;
      padding: 100px 20px 20px 20px;
    }
-   .songs2 {
+   .line2 {
     display: flex;
     justify-content: center;
   }
-    a {
-      display: inline-block;
+    .song {
+      display: block;
       text-decoration: none;
       color: #8b4513;
       background-color:#fff0f5;
@@ -37,18 +33,30 @@
       line-height: 150px;
       white-space: nowrap;
     }
+    .top {
+      font-style: italic;
+      color: #191970;
+      text-align: center;
+    }
+    .link {
+      margin-right: 20px;
+    }
   </style>
 </head>
 <body>
-  <h1><center>The Great Songs</center></h1>
-  <div class="songs1">
-  <a href="mylove.html">My Love</a>
-  <a href="Iwantit_thatway.html">I Want It That Way</a>
-  <a href="onecallaway.html">One Call Away</a>
+  <div class="top">
+  <h1>The Great Songs</h1>
+  <a class="link" href="http://m2.melon.com/index.htm"> <img src="./image/melon-logo.png" border="0"width="50px" height="50px"></a>
+  <a class="link" href="http://www.spotify.com"><img src="./image/spotify.png" border="0" width="50px" height="50px"></a>
   </div>
-  <div class="songs2">
-  <a href="dancing_queen.html">Dancing Queen</a>
-  <a href="viva_la_vida.html">Viva La Vida</a>
+  <div class="line1">
+  <a class="song" href="mylove.html">My Love</a>
+  <a class="song" href="Iwantit_thatway.html">I Want It That Way</a>
+  <a class="song" href="onecallaway.html">One Call Away</a>
+  </div>
+  <div class="line2">
+  <a class="song" href="dancing_queen.html">Dancing Queen</a>
+  <a class="song" href="viva_la_vida.html">Viva La Vida</a>
   </div>
 </body>
 </html>
