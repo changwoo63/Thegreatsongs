@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>The Great Songs</title>
+  <title>The Great Songs of the 2000s</title>
   <style>
     body {
       background-image: url("https://images.pexels.com/photos/1671630/pexels-photo-1671630.jpeg?cs=srgb&dl=pexels-tyler-lastovich-1671630.jpg&fm=jpg");
@@ -14,7 +14,11 @@
      justify-content: center;
      padding: 100px 20px 20px 20px;
    }
-    .genre {
+   .line2 {
+    display: flex;
+    justify-content: center;
+  }
+    .song {
       display: block;
       text-decoration: none;
       color: #8b4513;
@@ -28,6 +32,8 @@
       text-align: center;
       font-size: 17px;
       line-height: 150px;
+      overflow: hidden;
+      text-overflow: ellipsis;
       white-space: nowrap;
     }
     .top {
@@ -42,15 +48,15 @@
 </head>
 <body>
   <div class="top">
-  <h1>The Great Songs</h1>
+  <h1>The Great Songs of the 2000s</h1>
   <a class="link" href="http://m2.melon.com/index.htm"> <img src="./image/logo/melon-logo.png" width= "50px" height="50px"></a>
   <a class="link" href="https://music.apple.com/us/search"><img src="./image/logo/apple.png" width= "50px" height="50px"></a>
   <a class="link" href="http://www.spotify.com"><img src="./image/logo/spotify.png" width= "50px" height="50px"></a>
   </div>
   <div class="line1">
-  <a class="genre" href="20th.html">20th Century</a>
-  <a class="genre" href="00s.html">2000's</a>
-  <a class="genre" href="10s.html">2010's</a>
+    <a class="song" href="journey_for_myself.html" style="font-size: 15px;">나에게로 떠나는 여행</a>
+  </div>
+  <div class="line2">
   </div>
 </body>
 </html>
